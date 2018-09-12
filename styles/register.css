@@ -1,0 +1,71 @@
+*{margin: 0;padding: 0;text-decoration: none;list-style: none;font-family: " Microsoft YaHei";}
+a{color: #000;}
+
+/*header*/
+.header{width: 100%;height: 125px;background: #efefef;border-bottom: 2px solid rgb(36,135,201);
+	line-height:125px;}
+.nav{width: 1260px;height: 125px;margin: 0 auto;min-width: 1200px;}
+.navL{width: 500px;height: 125px;/*border: 1px solid red;*/line-height: 125px;float: left;}
+.navL span{display: block;float: left;}
+.navL .logo{margin-top: 8px;}
+.navL .title{font-size: 25px;padding-right: 5px;margin-left: 20px;}
+.navL .hline{font-size: 30px;padding-left: 8px;padding-right: 10px;}
+.navL .service{color: #bbb;}
+
+.navR{width: 700px;height: 125px;float: right;/*border: 1px solid red;*/}
+.navR li{float: left;margin-right: 10px;font-size: 16px;position: relative;}
+.orange:hover{color: rgb(251,116,3);cursor: pointer;}
+.imooc{margin-right: 10px;}
+.select{margin-right: 30px;margin-left: 20px;}
+
+.phone{width: 17px;margin-top: 51px;}
+.phoneW{line-height: 125px;display: inline-block;height: 125px;width: 50px;margin-top: -5px;}
+.selectF:hover .select>span{color:rgb(251,116,3);cursor: pointer;}
+.selectF:hover .list{display: block;}
+.navR .list{border: 1px solid rgb(251,116,3);width: 155px;height: 350px;position: absolute;z-index: 999;
+	top: 80px;background: #f9f9f9;display: none;}
+.list li{clear: both;height: 30px;line-height: 30px;width: 140px;color: #888;padding-left: 12.5px;
+	font-size: 14px;}
+.list li:hover{color:rgb(251,116,3);cursor: pointer;}
+.list .line{border-bottom: 1px dotted #999;}
+
+/*main*/
+.main{width: 1260px;height: 800px;margin: 0 auto;min-width: 1200px;}
+.main .pOne{height: 50px;line-height: 50px;font-size: 18px;}
+.main .pOne .mainP{color: #636363;}
+.main .information{width: 1260px;height: 640px;border: 1px solid rgb(251,116,3);border-radius: 10px;
+	position: relative;}
+.information .mainTitle{width: 100%;height: 42px;line-height: 42px;background:rgb(251,116,3);
+	border-radius: 10px;color: #fff;font-size: 18px;text-indent: 15px; }
+.information>form{width: 990px;height:480px;position: absolute;left: 270px;top: 100px;
+	/*border: 1px solid #333;*/}
+.information .item{margin-bottom: 18px;width: 990px;}
+.item .star{color: pink;}
+.item .word{width: 80px;height:20px;text-align: justify-all;/*font-size: 14px;*/display: inline-block;
+	overflow:hidden; text-justify:distribute-all-lines;text-indent:3px; text-align-last:justify;}
+.item input[type="text"]{width: 210px;}
+.item input[type="password"]{width: 210px;}
+.item .checkbox{margin-left: 115px;}
+.item select{width: 210px;display:inline-block;}
+.item .prompt{color:rgb(251,116,3);font-size: 14px; }
+.item .passwordDown{padding-left: 115px;}
+.item .one,.two,.three{display: inline-block;width: 42px;height: 7px;padding-left: 5px;background: #ddd;}
+.item .one{background: red;}
+.item .nameRule{text-decoration: underline;}
+.item .nameRule:hover{cursor: pointer;}
+.nameRules{width: 495px;height: 278px;line-height: 35px;border: 1px solid rgb(36,135,201);
+	text-align: justify;background: #fff;position:absolute;margin-left: 414px;margin-top: -4px;
+	display: none;}
+.nameRules p{padding-left: 18px;padding-right: 18px;font-size: 14px;color: #000;}
+.item .nameRule:hover .nameRules{display: block;}
+
+#submit{width: 230px;height: 35px;color: #fff;line-height: 35px;text-align: center;
+	background:rgb(251,116,3);border-radius: 5px;border: none;margin-left: 145px;margin-top: 47px;
+	font-size: 16px; }
+#submit:hover{cursor: pointer;background: rgb(255,50,5);}
+/*footer*/
+.footer{width: 100%;background:#efefef;border-top: 2px solid rgb(36,135,201);height: 105px;
+	text-align: center;color: #636363;min-width: 1200px;}
+.footer p{margin-top: 30px;}
+.footer .Copyright{font-size: 14px;margin-top: 20px;}
+

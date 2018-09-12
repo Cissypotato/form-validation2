@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>register</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles/register.css">
+</head>
+<body>
+<!--header-->
+	<div class="header">
+		<div class="nav">
+			<div class="navL">
+				<span><img src="images/logo.png" class="logo"></span>
+				<span class="title">慕课高铁服务中心</span>
+				<span class="hline">|</span>
+				<span class="service">客户服务</span>
+			</div>
+			<ul class="navR">
+				<li><a href="#" class="orange">意见反馈</a></li>
+				<li><a href="#" class="orange imooc">imooc@com</a></li>
+				<li><a href="#">您好，请<span class="orange">登录</span></a></li>
+				<li>|</li>
+				<li><a href="#" class="orange">注册</a></li>
+				<li class="selectF">
+					<span class="select"><span>我的IMOOC</span> ▼ </span>
+					<ul  class="list">
+						<li>未完成订单</li>
+						<li class="line">已完成订单（改/退）</li>
+						<li class="line">我的保险</li>
+						<li>查看个人信息</li>
+						<li class="line">账户安全</li>
+						<li class="line">常用联系人</li>
+						<li>重点旅客预约</li>
+						<li class="line">遗失物品查找</li>
+						<li class="line">服务查询</li>
+						<li>投诉</li>
+						<li>建议</li>
+					</ul>
+				</li>
+				<li><img src="images/phone.png" class="phone" ></li>
+				<li><a href="#" class="phoneW orange" >手机版</a></li>
+			</ul>
+		</div>
+	</div>
+<!--main-->
+	<div class="main">
+		<p class="pOne">您现在的位置：<span class="mainP">客运首页>注册</span></p>
+		<div class="information">
+			<div class="mainTitle">账户信息</div>
+			<form>	
+				<div class="item">
+					<span class="star">*</span>
+					<span class="word">用户名</span>：
+					<input type="text" name="" id="userName" placeholder="用户名设置成功后不可修改">
+					<span class="prompt">6-30位字母，数字或“_”，字母开头</span>
+				</div>
+				<div class="item">
+					<span class="star">*</span>
+					<span class="word">登录密码</span>：					
+					<input type="password" name="" id="password" placeholder="6-20位字母、数字或符号">	
+					<span class="one"></span>
+					<span class="two"></span>
+					<span class="three"></span>
+					<p class="prompt passwordDown"></p>
+				</div>
+					
+				<div class="item">
+					<span class="star">*</span>
+					<span class="word">确认密码</span>：
+					<input type="password" name="" id="passwordC" placeholder="再次输入您的登陆密码">
+					<span class="prompt"></span>
+				</div>
+				<div class="item">
+					<span class="star">*</span>
+					<span class="word">姓名</span>：
+					<input type="text" name="" id="userRealName" placeholder="请输入您的姓名">
+					<span class="prompt nameRule">
+						姓名填写规则
+						<div class="nameRules">
+					<p>1.确认姓名中生僻字无法输入时，可用生僻字拼音或同音字代替。</p>
+					<p>2.输入姓名保存后，如遇系统无法正确显示的汉字，可用该汉字的拼音或同音字重新保存。</p>
+					<p>3.姓名中有繁体字无法正常显示时，可用简体字替代。</p>
+					<p>4.姓名较长，汉字和英文字符合计超过30个（一个汉字算两个字符的），需按姓名中第一个
+					汉字或英文字符按顺序连续输入三十个字符（空格字符不输入），其中英文字符输入时不去区分
+					大小写。</p>
+				</div>
+					</span>
+				</div>
+				
+				<div class="item">
+					<span class="star">*</span>
+					<span class="word">证件类型</span>：
+					<select>
+						<option >二代身份证</option>
+					</select>
+				</div>
+				<div class="item">
+					<span class="star">*</span>
+					<span class="word">证件号码</span>：
+					<input type="text" name="" id="idnumber" placeholder="请输入您的证件号码">
+					<span class="prompt"></span>
+				</div>
+				<div class="item">
+					<span class="star">*</span>
+					<span class="word">邮箱</span>：
+					<input type="text" name="" id="mail" placeholder="请正确填写邮箱地址">
+					<span class="prompt"></span>
+				</div>
+				<div class="item">
+					<span class="star">*</span>
+					<span class="word">手机号码</span>：
+					<input type="text" name="" id="phone" placeholder="请输入您的手机号码">
+					<span class="prompt">请正确填写手机号码，稍后将向该手机发送手机验证码</span>
+				</div>
+				<div class="item">
+					<span class="star">*</span>
+					<span class="word">旅客类型</span>：
+					<select >
+						<option>成人</option>
+						<option>儿童</option>
+						<option>学生</option>
+						<option>残疾军人</option>
+						<option>伤残人民警察</option>
+					</select>
+					<span class="prompt"></span>
+				</div>
+				<div class="item">					
+					<input type="checkbox" name="" class="checkbox">
+					<span >我已阅读并同意遵守</span>
+					<a href="#" style="color: blue">《中国铁路中心客服服务条款》</a>
+				</div>
+				<div class="submit">
+					<input type="submit" name="" value="下一步" id="submit">
+				</div>
+
+
+			</form>
+		</div>
+	</div>
+<!--footer-->
+	<div class="footer">
+		<p>关于我们|网站声明</p>
+		<p class="Copyright">Copyright © 2018 imooc.com All Rights Reserved | 京ICP备 13046642号-2</p>
+
+	</div>
+	<script type="text/javascript" src="scripts/register.js"></script>
+</body>
+</html>
